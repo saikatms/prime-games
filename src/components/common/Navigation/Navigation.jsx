@@ -21,7 +21,6 @@ const Navigation = () => {
     isAuthenticating: state.app.isAuthenticating,
     isLoading: state.app.loading,
   }));
-
   // console.log(store);
   const scrollHandler = () => {
     if (navbar.current && window.screen.width > 480) {

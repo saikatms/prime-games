@@ -113,7 +113,7 @@ class Firebase {
 
   // // PRODUCT ACTIONS --------------
 
-  getSingleProduct = (id) => this.db.collection("PRODUCTS").doc(id).get();
+  getSingleProduct = (id) => this.db.collection("GAMES").doc(id).get();
 
   getProducts = (lastRefKey) => {
     let didTimeout = false;
@@ -123,7 +123,7 @@ class Firebase {
         if (lastRefKey) {
           try {
             const query = this.db
-              .collection("PRODUCTS")
+              .collection("GAMES")
               .orderBy(app.firestore.FieldPath.documentId())
               .startAfter(lastRefKey)
               .limit(27);
@@ -243,8 +243,8 @@ class Firebase {
 
   getFeaturedProducts = (itemsCount = 12) =>
     this.db
-      .collection("PRODUCTS")
-      .where("featured_products", "==", true)
+      .collection("GAMES")
+      .where("category", "==", "Category1")
       .limit(itemsCount)
       .get();
 

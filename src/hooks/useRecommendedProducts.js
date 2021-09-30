@@ -17,7 +17,7 @@ const useRecommendedProducts = (itemsCount) => {
 
       if (docs.empty) {
         if (didMount) {
-          setError("No recommended products found.");
+          setError("No category2 games found.");
           setLoading(false);
         }
       } else {

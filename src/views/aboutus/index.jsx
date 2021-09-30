@@ -9,48 +9,81 @@ function AboutUs() {
     <main className="content">
       <div>
         <h3>
-          With All is well app, you can effortlessly order medicines online and
-          get it safely delivered to your doorstep on the same day. Just upload
-          your prescription or required medicines and we’ll deliver it to your
-          desired location within the city.{" "}
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
         </h3>
         <h3>
-          All is well is the fastest growing online medicine delivery
-          application with over 5 lakhs satisfied customers across the city. We
-          deliver all kinds of health care products and provide highest
-          satisfactory service while keeping in mind distance is no bar. All is
-          well is always equipped with a wide range of allopathy medicines,
-          Covid related essentials, food & nutrition, personal care, baby care,
-          diabetic, women hygiene, general healthcare and wellness products to
-          ensure our customers never run out of vital medicines and health care
-          products.
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32.
         </h3>
-        <li>Purchase affordable medicines @ All Is Well – Online Pharmacy.</li>
         <li>
-          We have a hassle-free ordering process with super-fast delivery of
-          products. You can either place an order through the app by uploading
-          your prescription or simply call the store and our team of pharmacists
-          will place the order for you. Please check the delivery availability
-          in your location by downloading the app.
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy. Various versions have evolved over the years, sometimes by
+          accident, sometimes on purpose (injected humour and the like).
         </li>
         <li>
-          Our team at All Is Well work tirelessly to give you the best service.
-          Your order will be verified and confirmed by our dedicated
-          Pharmacists, before it is delivered to you.
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined
+          chunks as necessary, making this the first true generator on the
+          Internet. It uses a dictionary of over 200 Latin words, combined with
+          a handful of model sentence structures, to generate Lorem Ipsum which
+          looks reasonable. The generated Lorem Ipsum is therefore always free
+          from repetition, injected humour, or non-characteristic words etc.
         </li>
         <li>
-          Pay Online: Go cashless and pay in a fast and secure manner through
-          UPI, credit/debit cards, mobile wallets and Net banking. You can also
-          pay in cash at the time of delivery.
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested. Sections 1.10.32 and 1.10.33 from "de
+          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+          exact original form, accompanied by English versions from the 1914
+          translation by H. Rackham.
         </li>
         <li>
-          With All Is Well app, you can save up to 30% on medicines and other
-          healthcare products.
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested. Sections 1.10.32 and 1.10.33 from "de
+          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+          exact original form, accompanied by English versions from the 1914
+          translation by H. Rackham.
         </li>
         <li>
-          Feedback is what helps us to keep improving and we’re working hard to
-          make the experience better for you. Please feel free to tell us what
-          you feel.
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested. Sections 1.10.32 and 1.10.33 from "de
+          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+          exact original form, accompanied by English versions from the 1914
+          translation by H. Rackham.
+        </li>
+        <li>
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested. Sections 1.10.32 and 1.10.33 from "de
+          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+          exact original form, accompanied by English versions from the 1914
+          translation by H. Rackham.
         </li>
       </div>
     </main>

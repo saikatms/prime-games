@@ -8,6 +8,7 @@ const CollectionItem = ({ product }) => {
   // const para = Truncate(overview, 155, " ..read more");
   // var titlePath = movies ? FixString(title) : null;
   // var namePath = tvshow ? FixString(name) : null;
+  console.log(product);
   return (
     <div className="collection-item">
       <div

@@ -29,13 +29,12 @@ const ProductFeatured = ({ product }) => {
           )}
         </div>
         <div className="product-display-details">
-          <h2>{product.productName || <Skeleton width={80} />}</h2>
-          <p className="text-subtle text-italic">
-            {product.price || <Skeleton width={40} />}
-          </p>
-          <p className="text-subtle text-italic">
-            {product.amount || <Skeleton width={40} />}
-          </p>
+          <h2>{product.gameName || <Skeleton width={80} />}</h2>
+          {/* <div className="clip-star"></div>
+          <div className="clip-star"></div>
+          <div className="clip-star"></div>
+          <div className="clip-star"></div>
+          <div className="clip-star"></div> */}
         </div>
       </div>
     </SkeletonTheme>

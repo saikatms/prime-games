@@ -10,14 +10,14 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAbSseh-4SbS0JYMdgxu4LnCM0pGvT2X8E",
-  authDomain: "all-is-well-pharmacy-3dd14.firebaseapp.com",
-  databaseURL: "https://all-is-well-pharmacy-3dd14-default-rtdb.firebaseio.com",
-  projectId: "all-is-well-pharmacy-3dd14",
-  storageBucket: "all-is-well-pharmacy-3dd14.appspot.com",
-  messagingSenderId: "722925813574",
-  appId: "1:722925813574:web:02bcd1caa7ef3306336f47",
-  measurementId: "G-BWYG2WS8N6",
+  apiKey: "AIzaSyAVjeAg2bVaQDZ4_W7-7WlLY-60cmu6Nmc",
+  authDomain: "timuz-games.firebaseapp.com",
+  databaseURL: "https://timuz-games-default-rtdb.firebaseio.com",
+  projectId: "timuz-games",
+  storageBucket: "timuz-games.appspot.com",
+  messagingSenderId: "1015887746572",
+  appId: "1:1015887746572:web:c0711fa40936b5d80bc029",
+  measurementId: "G-MZT49EJNWH",
 };
 
 export default firebaseConfig;

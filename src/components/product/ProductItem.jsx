@@ -17,7 +17,6 @@ const ProductItem = ({ product, isItemOnBasket, addToBasket }) => {
     }
   };
   var staticImage = [];
-
   const itemOnBasket = isItemOnBasket ? isItemOnBasket(product.id) : false;
 
   const handleAddToBasket = () => {
@@ -61,7 +60,7 @@ const ProductItem = ({ product, isItemOnBasket, addToBasket }) => {
           </div>
           <div className="product-details">
             <h5 className="product-card-name text-overflow-ellipsis margin-auto">
-              {product.productName || <Skeleton width={80} />}
+              {product.gameName || <Skeleton width={80} />}
             </h5>
             {/* <p className="product-card-brand">
               {product.brand || <Skeleton width={60} />}

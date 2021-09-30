@@ -6,6 +6,18 @@ import CollectionItem from "./CollectionItem";
 
 const ProductShowcase = ({ products, skeletonCount }) => (
   <div className="product-display-grid">
+    {/* <FontAwesomeIcon
+      icon={faChevronLeft}
+      className="collection-preview__left-arrow-icon"
+      onClick={onLeftClick()}
+    /> */}
+    {/* <span className="collection-preview__right-arrow">
+      <FontAwesomeIcon
+        icon={faChevronRight}
+        className="collection-preview__right-arrow-icon"
+        onClick={this.onRightClick}
+      />
+    </span> */}
     {products.length === 0
       ? new Array(skeletonCount).fill({}).map((product, index) => (
           <FeaturedProduct
@@ -15,7 +27,7 @@ const ProductShowcase = ({ products, skeletonCount }) => (
           />
         ))
       : products.map((product) => (
-          <CollectionItem key={product.id} product={product} />
+          <FeaturedProduct key={product.id} product={product} />
         ))}
   </div>
 );

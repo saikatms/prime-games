@@ -16,7 +16,10 @@ const RecommendedProducts = () => {
       <div className="featured">
         <div className="banner">
           <div className="banner-img">
-            <img src={bannerImg} alt="" />
+            <img
+              src="https://image.freepik.com/free-vector/hexagonal-shape-neon-light-banner_1017-19904.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="display">

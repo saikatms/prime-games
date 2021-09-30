@@ -27,13 +27,13 @@ const Home = () => {
     fetchFeaturedProducts,
     isLoading: isLoadingFeatured,
     error: errorFeatured,
-  } = useFeaturedProducts(4);
+  } = useFeaturedProducts(10);
   const {
     recommendedProducts,
     fetchRecommendedProducts,
     isLoading: isLoadingRecommended,
     error: errorRecommended,
-  } = useRecommendedProducts(4);
+  } = useRecommendedProducts(10);
   // const {
   //   COVIDEssentialProducts,
   //   fetchCovidEssentialProducts,
@@ -65,7 +65,7 @@ const Home = () => {
           ) : (
             <ProductShowcaseGrid
               products={featuredProducts}
-              skeletonCount={6}
+              skeletonCount={5}
             />
           )}
         </div>

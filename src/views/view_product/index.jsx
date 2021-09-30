@@ -19,9 +19,10 @@ import imageDefault from "images/Medicinicon1.png";
 const ViewProduct = () => {
   const { id } = useParams();
   const { product, isLoading, error } = useProduct(id);
+  console.log(product);
   const { addToBasket, isItemOnBasket } = useBasket(product);
   useScrollTop();
-  useDocumentTitle(`View ${product?.productName || "Item"}`);
+  useDocumentTitle(`View ${product?.gameName || "Game"}`);
   const [selectedImage, setSelectedImage] = useState(
     product?.imageDatas?.[0].downloadPath || imageDefault
   );
@@ -74,7 +75,7 @@ const ViewProduct = () => {
           <Link to={SHOP}>
             <h3 className="button-link d-inline-flex">
               <ArrowLeftOutlined />
-              &nbsp; Back to shop
+              &nbsp; Back to Home
             </h3>
           </Link>
           <div className="product-modal">
@@ -96,39 +97,108 @@ const ViewProduct = () => {
               </div>
             )} */}
             <div className="product-modal-image-wrapper">
-              {selectedColor && (
+              {/* {selectedColor && (
                 <input
                   type="color"
                   disabled
                   ref={colorOverlay}
                   id="color-overlay"
                 />
-              )}
+              )} */}
+              <h2>Game Name</h2>
               {product?.imageDatas?.[0].downloadPath ? (
                 <ImageLoader
-                  alt={product.productName}
+                  alt={product.gameName}
                   className="product-modal-image"
                   src={product.imageDatas[0].downloadPath}
                 />
               ) : (
-                <ImageLoader
-                  alt={product.productName}
-                  className="product-modal-image-default"
-                  src={imageDefault}
-                />
+                <>
+                  <ImageLoader
+                    alt={product.gameName}
+                    className="product-modal-image-default"
+                    src={imageDefault}
+                  />
+                </>
               )}
+              <h2>Description</h2>
+              <div className="divider" />
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
             </div>
             <div className="product-modal-details">
-              <br />
-              {/* <span className="text-subtle">{product.brand}</span> */}
-              <h1 className="margin-top-0">{product.productName}</h1>
-              {/* <span>{product.description}</span> */}
-              <br />
+              <div className="game-details-header">
+                <h1>Game Details</h1>
+              </div>
+              <div className="game-details">
+                <h2>Game Details</h2>
+                <h2>Google Play</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Game Category</h2>
+                <h2>{product.category}</h2>
+              </div>
+              <div className="divider" />
+
+              <div className="game-details">
+                <h2>Downloads</h2>
+                <h2>{product.downloads}</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Source File</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Software Use</h2>
+                <h2>{product.softwareUsed}</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Plugins</h2>
+                <h2>{product.plugins}</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Graphics</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Original</h2>
+                <h2>{product.original}</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Can Change</h2>
+                <h2>{product.softwareUsed}</h2>
+              </div>
+              <div className="divider" />
+              <div className="game-details">
+                <h2>Software Use</h2>
+                <h2>{product.softwareUsed}</h2>
+              </div>
               <br />
               <div className="divider" />
               <br />
 
-              <h1>{displayMoney(product.price)}</h1>
+              <h2>License to the Game Source code</h2>
+              <div className="game-details">
+                <h2>Summery:</h2>
+                <h2>$3000</h2>
+              </div>
+              {/* <h1>{displayMoney(product.price)}</h1> */}
               <div className="product-modal-action">
                 <button
                   className={`button button-small

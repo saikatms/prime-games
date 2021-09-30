@@ -14,10 +14,9 @@ const useFeaturedProducts = (itemsCount) => {
       setError("");
 
       const docs = await firebase.getFeaturedProducts(itemsCount);
-
       if (docs.empty) {
         if (didMount) {
-          setError("No featured products found.");
+          setError("No Category1 games found.");
           setLoading(false);
         }
       } else {
@@ -28,6 +27,7 @@ const useFeaturedProducts = (itemsCount) => {
           // console.log(snap.ref.id);
           items.push({ id: snap.ref.id, ...data });
         });
+        console.log(items);
 
         if (didMount) {
           setFeaturedProducts(items);
