@@ -1,0 +1,20 @@
+.contact__us{
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s ease;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  
+  @media (max-width: 30rem) {
+    padding: 5rem 1.6rem;
+    flex-direction: column;
+  }
+  h1{
+    display: flex;
+    justify-content: start;
+  }
+}
