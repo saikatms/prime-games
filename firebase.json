@@ -3,8 +3,9 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "site": "primegames",
     "public": "dist",
+    "site": "primegames",
+
     "ignore": [
       "firebase.json",
       "**/.*",
